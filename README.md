@@ -15,7 +15,7 @@ sesuai dengan namanya yaitu dashboard kas kelas. fungsi dashboard ini adalah men
 3. Pemasukan yang didalamnya terdapat keterangan dan sumber dana (Admin)
 4. Pengeluaran juga yang didalamya terdapat keterangan (Admin)
 5. pada fitur Kotak Saran, terdapat perbedaan antara anggota dan admin
-   a. pada anggota bisa mengirim saran dari admin  
+6. a. pada anggota bisa mengirim saran dari admin  
    b. pada admin hanya menerima kotak saran yang dikirim dari anggota dan bisa menghapusnya
 
 # Cara menjalankan Project
