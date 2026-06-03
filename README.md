@@ -27,13 +27,13 @@ sesuai dengan namanya yaitu dashboard kas kelas. fungsi dashboard ini adalah men
 5. pilih run with streamlit
 
 # Penjelasan Implementasi OOP
-1. Inheritance
+1. Inheritance : 
 pada Class Pengurus dan Anggota, merupakan turunan dari class User. selain itu kode ini juga menerapkan pada class pemasukan dan pengeluaran yang merupakan turunan dari class Transaksi
-2. Encapsulation
+2. Encapsulation : 
 Konsep enkapsulasi pada kode ini diterapkan dengan membungkus data dan fungsi ke dalam sebuah class. sebagai contoh pada class dashboard menyimpan daftar transaksi dan menyediakan method lain yaitu tambah transaksi, dan hapus transaksi sehingga pengelolahan transaksi lebig terstruktur
-3. Abstraction
+3. Abstraction : 
 Konsep Abstraksi diterapkan di kode ini pada bagian "dashboard.hitung_saldo()". Pengguna cukup memanggil method tersebut tanpa perlu mengetahui proses perhitungan total pemasukan dan pengeluaran yang terjadi di dalam program.
-4. Polymorphism
+4. Polymorphism : 
 Polimorfisme diterapkan melalui method overriding pada class transaksi dengan method "to_dict(self)". Method tersebut kemudian dioverride pada class Pemasukan dan Pengeluaran untuk menghasilkan struktur data yang berbeda sesuai jenis transaksi. Dengan demikian, method yang sama dapat menghasilkan perilaku yang berbeda tergantung objek yang memanggilnya.
 
 # Screenshot 
